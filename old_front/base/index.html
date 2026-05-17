@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiblioTech - Catálogo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html"><i class="bi bi-book-half me-2"></i>BiblioTech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Início/Catálogo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="usuarios-lista.html">Listar Usuários</a></li>
+                    <li class="nav-item"><a class="nav-link" href="usuarios-cadastro.html">Novo Usuário</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Consultar Emprésitmo</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2><i class="bi bi-collection me-2"></i>Nosso Acervo</h2>
+            <div class="input-group w-50">
+                <input type="text" class="form-control" placeholder="Pesquisar por título, autor ou categoria...">
+                <button class="btn btn-primary"><i class="bi bi-search"></i></button>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4">
+            
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://covers.openlibrary.org/b/isbn/9788576082675-L.jpg" class="card-img-top p-3" alt="Código Limpo">
+                    <div class="card-body">
+                        <span class="badge bg-primary mb-2">Programação</span>
+                        <h5 class="card-title h6 text-truncate">Código Limpo</h5>
+                        <p class="card-text small text-muted">Robert C. Martin<br><small>Alta Books (2009)</small></p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <button class="btn btn-outline-primary btn-sm w-100">Disponibilidade</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://covers.openlibrary.org/b/isbn/9788550804606-L.jpg" class="card-img-top p-3" alt="Arquitetura Limpa">
+                    <div class="card-body">
+                        <span class="badge bg-primary mb-2">Programação</span>
+                        <h5 class="card-title h6 text-truncate">Arquitetura Limpa</h5>
+                        <p class="card-text small text-muted">Robert C. Martin<br><small>Alta Books (2019)</small></p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <button class="btn btn-outline-primary btn-sm w-100">Disponibilidade</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://covers.openlibrary.org/b/isbn/9788535245387-L.jpg" class="card-img-top p-3" alt="Sistemas de BD">
+                    <div class="card-body">
+                        <span class="badge bg-success mb-2">Banco de Dados</span>
+                        <h5 class="card-title h6 text-truncate">Sistemas de Banco de Dados</h5>
+                        <p class="card-text small text-muted">Abraham Silberschatz<br><small>Elsevier (2012)</small></p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <button class="btn btn-outline-primary btn-sm w-100">Disponibilidade</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://covers.openlibrary.org/b/isbn/9788543003009-L.jpg" class="card-img-top p-3" alt="Redes">
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark mb-2">Redes</span>
+                        <h5 class="card-title h6 text-truncate">Redes de Computadores</h5>
+                        <p class="card-text small text-muted">Andrew Tanenbaum<br><small>Pearson (2013)</small></p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <button class="btn btn-outline-primary btn-sm w-100">Disponibilidade</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://covers.openlibrary.org/b/isbn/9788550815480-L.jpg" class="card-img-top p-3" alt="IA">
+                    <div class="card-body">
+                        <span class="badge bg-danger mb-2">IA</span>
+                        <h5 class="card-title h6 text-truncate">Mãos à Obra: Machine Learning</h5>
+                        <p class="card-text small text-muted">Aurélien Géron<br><small>Alta Books (2021)</small></p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <button class="btn btn-outline-primary btn-sm w-100">Disponibilidade</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://covers.openlibrary.org/b/isbn/9788573076103-L.jpg" class="card-img-top p-3" alt="Design Patterns">
+                    <div class="card-body">
+                        <span class="badge bg-primary mb-2">Programação</span>
+                        <h5 class="card-title h6 text-truncate">Design Patterns</h5>
+                        <p class="card-text small text-muted">Erich Gamma et al.<br><small>Bookman (2000)</small></p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <button class="btn btn-outline-primary btn-sm w-100">Disponibilidade</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

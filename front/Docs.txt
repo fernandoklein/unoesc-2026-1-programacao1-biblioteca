@@ -1,0 +1,3 @@
+Pasta node_modules e arquivo package-lock.json devo excluir antes de mandar para o git.
+
+AO baixar do git instalo novamente pelo npm install.
